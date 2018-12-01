@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1543659112 source:c:\users\b1232\desktop\Åª®Ñ\data stucture\sorting practice\main.cpp
+	<iostream>
+	<sstream>
+	<fstream>
+	<string>
+	<vector>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	<iomanip>
+	<algorithm>
+	<time.h>
+

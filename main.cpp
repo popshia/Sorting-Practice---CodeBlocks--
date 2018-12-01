@@ -184,8 +184,6 @@ public:
         DataStruct temp[Count][Count] = {} ;
         int order[Count] = {0} ;
         int n = 1 ;
-        int largest = dataBase[FindLargest()].graduated ;
-        int digit = 1 ;
 
         while ( n <= dataBase[FindLargest()].graduated ) {
             int i ;
@@ -241,12 +239,12 @@ int main() {
             return 0 ;
         } // quit
 
-        else if ( command > 3 || command < 0 ) {
+        else if ( command > 3 || command < 0 ) { // wrong command
             cout << "Error command! please enter an acceptable command :" << endl << endl ;
             continueOrNot = true ;
         } // wrong command
 
-        else if ( command == 1 ) {
+        else if ( command == 1 ) { // function 1
             bool function1Confirm = false ;
 
             do {
@@ -297,7 +295,7 @@ int main() {
             FileN = "0" ;
         } // mission 1: Select & Bubble Sort
 
-        else if ( command == 2 ) {
+        else if ( command == 2 ) { // function 2
             bool function2Confirm = false ;
 
             do {
@@ -350,7 +348,7 @@ int main() {
             FileN = "0" ;
         } // mission 2: Merge & Quick Sort
 
-        else if ( command == 3 ) {
+        else if ( command == 3 ) { // function 3
             bool function3Confirm = false ;
 
             do {
